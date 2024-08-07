@@ -2,6 +2,12 @@
     "name": "luv-vik/aws-secrets-helper",
     "description": "A PHP helper function to retrieve secret values from AWS Secrets Manager with caching in Redis.",
     "type": "project",
+    "authors":[
+        {
+            "name": "Vimal Kumar",
+            "email": "vimalkumar669@gmail.com"
+        }
+    ],
     "require": {
         "predis/predis": "^1",
         "aws/aws-sdk-php": "^3.275"
